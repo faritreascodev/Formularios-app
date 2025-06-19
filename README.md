@@ -9,15 +9,16 @@ Incluye navegación con `react-router-dom` y diseño con Bootstrap.
 
 ---
 
-## 📂 Estructura de la práctica (solo archivos esenciales)
+## 📂 Estructura del proyecto
 
+```plaintext
 src/
 ├── components/
-│ ├── FormularioTexto.js
-│ ├── FormularioFormik.js
-│ └── Navegacion.js
-└── index.js 
-
+│   ├── FormularioTexto.js
+│   ├── FormularioFormik.js
+│   └── Navegacion.js
+└── index.js
+```
 ---
 
 ## 🚀 Instrucciones para Ejecutar
