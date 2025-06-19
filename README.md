@@ -25,8 +25,8 @@ src/
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL-del-repositorio>
-   cd <nombre-del-proyecto>
+   git clone <https://github.com/faritreascodev/Formularios-app.git>
+   cd <Formularios-app>
 
 2. Instala las dependencias:
 npm install
@@ -59,9 +59,9 @@ Al enviar, los datos se registran en una tabla dinámica.
 
 * Navegacion.js
 Sistema de rutas y navegación:
-/ → Página de inicio
-/FormularioTexto → Formulario simple
-/FormularioFormik → Formulario con Formik
+Página de inicio
+FormularioTexto - Formulario simple
+FormularioFormik - Formulario con Formik
 Rutas no válidas redirigen a una página de error.
 
 # Tecnologías
