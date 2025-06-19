@@ -21,7 +21,7 @@ function FormularioTexto(props) {
     const erroresValidados = validar();
     setErrores(erroresValidados);
     if (Object.keys(erroresValidados).length === 0) {
-      alert(`Nombre: ${nombre}, email: ${email}`);
+      console.log(`Nombre: ${nombre}, email: ${email}`);
     }
   }
 
@@ -50,7 +50,7 @@ function FormularioTexto(props) {
           className='invalid-feedback'>{errores.email}
         </div>}
       </div>
-      <button className='btn btn-primary' type='submit'>Enviar</button>
+      <button className='btn btn-success' type='submit'>Enviar</button>
     </form>
   );
 }

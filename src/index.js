@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FormularioTexto from './components/FormularioTexto';
+
+// importar Bootstrap JS para que funcione el menú responsive
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+import Navegacion from './components/Navegacion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormularioTexto />
+    <Navegacion />
   </React.StrictMode>
 );
 
